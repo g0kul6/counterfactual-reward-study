@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the paper."
+title: "TODO: paper title"   # placeholder
+authors:
+  - family-names: Thiruvenkadam
+    given-names: Gokul Kannan
+  - family-names: Patel
+    given-names: Vishal M.
+  - family-names: Bharadhwaj
+    given-names: Homanga
+url: "https://g0kul6.github.io/counterfactual-study/"
+license: MIT

@@ -1,0 +1,336 @@
+{
+  "schema_version": 1,
+  "selection_version": "reward-duration-diversity-v1",
+  "context_source": "teleop",
+  "max_demonstrations_per_task": 5,
+  "label_mode": "trajectory_average_reward",
+  "tasks": {
+    "pour_the_contents_of_the_cup_into_the_grey_box": {
+      "task": "Pour the contents of the cup into the grey box",
+      "demonstrations": [
+        {
+          "trajectory_id": "kinesthetic_data::pour_the_contents_of_the_cup_into_the_grey_box::episode_001_20260914_124314_801205",
+          "video_path": "kinesthetic_data/pour_the_contents_of_the_cup_into_the_grey_box/episode_001_20260914_124314_801205/episode_001_20260914_124314_801205_left.mp4",
+          "reward": 1.0,
+          "raw_start_frame": 0,
+          "end_frame": 232,
+          "frame_count": 233,
+          "fps": 15.0,
+          "duration_seconds": 15.533333333333333,
+          "selection_reason": "nested_subset_order",
+          "rubric_version": "3.0.0"
+        },
+        {
+          "trajectory_id": "kinesthetic_data::pour_the_contents_of_the_cup_into_the_grey_box::episode_001_20260914_125037_006623",
+          "video_path": "kinesthetic_data/pour_the_contents_of_the_cup_into_the_grey_box/episode_001_20260914_125037_006623/episode_001_20260914_125037_006623_left.mp4",
+          "reward": 0.6,
+          "raw_start_frame": 0,
+          "end_frame": 302,
+          "frame_count": 303,
+          "fps": 15.0,
+          "duration_seconds": 20.2,
+          "selection_reason": "nested_subset_order",
+          "rubric_version": "3.0.0"
+        },
+        {
+          "trajectory_id": "kinesthetic_data::pour_the_contents_of_the_cup_into_the_grey_box::episode_001_20260914_125911_505480",
+          "video_path": "kinesthetic_data/pour_the_contents_of_the_cup_into_the_grey_box/episode_001_20260914_125911_505480/episode_001_20260914_125911_505480_left.mp4",
+          "reward": 0.0,
+          "raw_start_frame": 0,
+          "end_frame": 163,
+          "frame_count": 164,
+          "fps": 15.0,
+          "duration_seconds": 10.933333333333334,
+          "selection_reason": "nested_subset_order",
+          "rubric_version": "3.0.0"
+        },
+        {
+          "trajectory_id": "kinesthetic_data::pour_the_contents_of_the_cup_into_the_grey_box::episode_002_20260914_125234_511362",
+          "video_path": "kinesthetic_data/pour_the_contents_of_the_cup_into_the_grey_box/episode_002_20260914_125234_511362/episode_002_20260914_125234_511362_left.mp4",
+          "reward": 0.4,
+          "raw_start_frame": 0,
+          "end_frame": 349,
+          "frame_count": 350,
+          "fps": 15.0,
+          "duration_seconds": 23.333333333333332,
+          "selection_reason": "nested_subset_order",
+          "rubric_version": "3.0.0"
+        },
+        {
+          "trajectory_id": "kinesthetic_data::pour_the_contents_of_the_cup_into_the_grey_box::episode_003_20260914_125430_032863",
+          "video_path": "kinesthetic_data/pour_the_contents_of_the_cup_into_the_grey_box/episode_003_20260914_125430_032863/episode_003_20260914_125430_032863_left.mp4",
+          "reward": 0.2,
+          "raw_start_frame": 0,
+          "end_frame": 201,
+          "frame_count": 202,
+          "fps": 15.0,
+          "duration_seconds": 13.466666666666667,
+          "selection_reason": "nested_subset_order",
+          "rubric_version": "3.0.0"
+        }
+      ]
+    },
+    "put_the_sellotape_in_the_grey_box": {
+      "task": "Put the sellotape in the grey box",
+      "demonstrations": [
+        {
+          "trajectory_id": "kinesthetic_data::put_the_sellotape_in_the_grey_box::episode_001_20260914_121331_590365",
+          "video_path": "kinesthetic_data/put_the_sellotape_in_the_grey_box/episode_001_20260914_121331_590365/episode_001_20260914_121331_590365_left.mp4",
+          "reward": 1.0,
+          "raw_start_frame": 0,
+          "end_frame": 288,
+          "frame_count": 289,
+          "fps": 15.0,
+          "duration_seconds": 19.266666666666666,
+          "selection_reason": "nested_subset_order",
+          "rubric_version": "3.0.0"
+        },
+        {
+          "trajectory_id": "kinesthetic_data::put_the_sellotape_in_the_grey_box::episode_002_20260914_121542_908989",
+          "video_path": "kinesthetic_data/put_the_sellotape_in_the_grey_box/episode_002_20260914_121542_908989/episode_002_20260914_121542_908989_left.mp4",
+          "reward": 0.0,
+          "raw_start_frame": 0,
+          "end_frame": 239,
+          "frame_count": 445,
+          "fps": 15.0,
+          "duration_seconds": 16.0,
+          "selection_reason": "nested_subset_order",
+          "rubric_version": "3.0.0"
+        },
+        {
+          "trajectory_id": "kinesthetic_data::put_the_sellotape_in_the_grey_box::episode_003_20260914_121815_353396",
+          "video_path": "kinesthetic_data/put_the_sellotape_in_the_grey_box/episode_003_20260914_121815_353396/episode_003_20260914_121815_353396_left.mp4",
+          "reward": 0.6,
+          "raw_start_frame": 0,
+          "end_frame": 275,
+          "frame_count": 276,
+          "fps": 15.0,
+          "duration_seconds": 18.4,
+          "selection_reason": "nested_subset_order",
+          "rubric_version": "3.0.0"
+        },
+        {
+          "trajectory_id": "kinesthetic_data::put_the_sellotape_in_the_grey_box::episode_004_20260914_122019_964902",
+          "video_path": "kinesthetic_data/put_the_sellotape_in_the_grey_box/episode_004_20260914_122019_964902/episode_004_20260914_122019_964902_left.mp4",
+          "reward": 0.2,
+          "raw_start_frame": 0,
+          "end_frame": 212,
+          "frame_count": 314,
+          "fps": 15.0,
+          "duration_seconds": 14.2,
+          "selection_reason": "nested_subset_order",
+          "rubric_version": "3.0.0"
+        },
+        {
+          "trajectory_id": "kinesthetic_data::put_the_sellotape_in_the_grey_box::episode_005_20260914_122223_329520",
+          "video_path": "kinesthetic_data/put_the_sellotape_in_the_grey_box/episode_005_20260914_122223_329520/episode_005_20260914_122223_329520_left.mp4",
+          "reward": 0.4,
+          "raw_start_frame": 0,
+          "end_frame": 265,
+          "frame_count": 266,
+          "fps": 15.0,
+          "duration_seconds": 17.733333333333334,
+          "selection_reason": "nested_subset_order",
+          "rubric_version": "3.0.0"
+        }
+      ]
+    },
+    "put_the_spoon_on_the_plate": {
+      "task": "Put the spoon on the plate",
+      "demonstrations": [
+        {
+          "trajectory_id": "kinesthetic_data::put_the_spoon_on_the_plate::episode_001_20260914_132549_890014",
+          "video_path": "kinesthetic_data/put_the_spoon_on_the_plate/episode_001_20260914_132549_890014/episode_001_20260914_132549_890014_left.mp4",
+          "reward": 1.0,
+          "raw_start_frame": 0,
+          "end_frame": 311,
+          "frame_count": 312,
+          "fps": 15.0,
+          "duration_seconds": 20.8,
+          "selection_reason": "nested_subset_order",
+          "rubric_version": "3.0.0"
+        },
+        {
+          "trajectory_id": "kinesthetic_data::put_the_spoon_on_the_plate::episode_001_20260914_133310_578192",
+          "video_path": "kinesthetic_data/put_the_spoon_on_the_plate/episode_001_20260914_133310_578192/episode_001_20260914_133310_578192_left.mp4",
+          "reward": 0.6,
+          "raw_start_frame": 0,
+          "end_frame": 354,
+          "frame_count": 355,
+          "fps": 15.0,
+          "duration_seconds": 23.666666666666668,
+          "selection_reason": "nested_subset_order",
+          "rubric_version": "3.0.0"
+        },
+        {
+          "trajectory_id": "kinesthetic_data::put_the_spoon_on_the_plate::episode_002_20260914_133519_864387",
+          "video_path": "kinesthetic_data/put_the_spoon_on_the_plate/episode_002_20260914_133519_864387/episode_002_20260914_133519_864387_left.mp4",
+          "reward": 0.2,
+          "raw_start_frame": 0,
+          "end_frame": 335,
+          "frame_count": 336,
+          "fps": 15.0,
+          "duration_seconds": 22.4,
+          "selection_reason": "nested_subset_order",
+          "rubric_version": "3.0.0"
+        },
+        {
+          "trajectory_id": "kinesthetic_data::put_the_spoon_on_the_plate::episode_003_20260914_133720_634705",
+          "video_path": "kinesthetic_data/put_the_spoon_on_the_plate/episode_003_20260914_133720_634705/episode_003_20260914_133720_634705_left.mp4",
+          "reward": 0.8,
+          "raw_start_frame": 0,
+          "end_frame": 238,
+          "frame_count": 239,
+          "fps": 15.0,
+          "duration_seconds": 15.933333333333334,
+          "selection_reason": "nested_subset_order",
+          "rubric_version": "3.0.0"
+        },
+        {
+          "trajectory_id": "kinesthetic_data::put_the_spoon_on_the_plate::episode_004_20260914_133911_563507",
+          "video_path": "kinesthetic_data/put_the_spoon_on_the_plate/episode_004_20260914_133911_563507/episode_004_20260914_133911_563507_left.mp4",
+          "reward": 0.8,
+          "raw_start_frame": 0,
+          "end_frame": 333,
+          "frame_count": 334,
+          "fps": 15.0,
+          "duration_seconds": 22.266666666666666,
+          "selection_reason": "nested_subset_order",
+          "rubric_version": "3.0.0"
+        }
+      ]
+    },
+    "remove_the_lid_from_pot": {
+      "task": "Remove the lid from pot",
+      "demonstrations": [
+        {
+          "trajectory_id": "kinesthetic_data::remove_the_lid_from_pot::episode_001_20260914_145603_714379",
+          "video_path": "kinesthetic_data/remove_the_lid_from_pot/episode_001_20260914_145603_714379/episode_001_20260914_145603_714379_left.mp4",
+          "reward": 1.0,
+          "raw_start_frame": 0,
+          "end_frame": 187,
+          "frame_count": 188,
+          "fps": 15.0,
+          "duration_seconds": 12.533333333333333,
+          "selection_reason": "nested_subset_order",
+          "rubric_version": "3.0.0"
+        },
+        {
+          "trajectory_id": "kinesthetic_data::remove_the_lid_from_pot::episode_001_20260914_150406_913847",
+          "video_path": "kinesthetic_data/remove_the_lid_from_pot/episode_001_20260914_150406_913847/episode_001_20260914_150406_913847_left.mp4",
+          "reward": 0.2,
+          "raw_start_frame": 0,
+          "end_frame": 141,
+          "frame_count": 179,
+          "fps": 15.0,
+          "duration_seconds": 9.466666666666667,
+          "selection_reason": "nested_subset_order",
+          "rubric_version": "3.0.0"
+        },
+        {
+          "trajectory_id": "kinesthetic_data::remove_the_lid_from_pot::episode_001_20260921_202006_584474",
+          "video_path": "kinesthetic_data/remove_the_lid_from_pot/episode_001_20260921_202006_584474/episode_001_20260921_202006_584474_left.mp4",
+          "reward": 0.6,
+          "raw_start_frame": 0,
+          "end_frame": 401,
+          "frame_count": 470,
+          "fps": 15.0,
+          "duration_seconds": 26.8,
+          "selection_reason": "nested_subset_order",
+          "rubric_version": "3.0.0"
+        },
+        {
+          "trajectory_id": "kinesthetic_data::remove_the_lid_from_pot::episode_002_20260914_145823_852320",
+          "video_path": "kinesthetic_data/remove_the_lid_from_pot/episode_002_20260914_145823_852320/episode_002_20260914_145823_852320_left.mp4",
+          "reward": 0.2,
+          "raw_start_frame": 0,
+          "end_frame": 246,
+          "frame_count": 247,
+          "fps": 15.0,
+          "duration_seconds": 16.466666666666665,
+          "selection_reason": "nested_subset_order",
+          "rubric_version": "3.0.0"
+        },
+        {
+          "trajectory_id": "kinesthetic_data::remove_the_lid_from_pot::episode_003_20260914_145956_504299",
+          "video_path": "kinesthetic_data/remove_the_lid_from_pot/episode_003_20260914_145956_504299/episode_003_20260914_145956_504299_left.mp4",
+          "reward": 0.8,
+          "raw_start_frame": 0,
+          "end_frame": 184,
+          "frame_count": 209,
+          "fps": 15.0,
+          "duration_seconds": 12.333333333333334,
+          "selection_reason": "nested_subset_order",
+          "rubric_version": "3.0.0"
+        }
+      ]
+    },
+    "stack_up_the_cups_together": {
+      "task": "Stack up the cups together",
+      "demonstrations": [
+        {
+          "trajectory_id": "kinesthetic_data::stack_up_the_cups_together::episode_001_20260914_130918_853264",
+          "video_path": "kinesthetic_data/stack_up_the_cups_together/episode_001_20260914_130918_853264/episode_001_20260914_130918_853264_left.mp4",
+          "reward": 0.2,
+          "raw_start_frame": 0,
+          "end_frame": 301,
+          "frame_count": 302,
+          "fps": 15.0,
+          "duration_seconds": 20.133333333333333,
+          "selection_reason": "nested_subset_order",
+          "rubric_version": "3.0.0"
+        },
+        {
+          "trajectory_id": "kinesthetic_data::stack_up_the_cups_together::episode_001_20260914_131825_153881",
+          "video_path": "kinesthetic_data/stack_up_the_cups_together/episode_001_20260914_131825_153881/episode_001_20260914_131825_153881_left.mp4",
+          "reward": 0.6,
+          "raw_start_frame": 0,
+          "end_frame": 307,
+          "frame_count": 308,
+          "fps": 15.0,
+          "duration_seconds": 20.533333333333335,
+          "selection_reason": "nested_subset_order",
+          "rubric_version": "3.0.0"
+        },
+        {
+          "trajectory_id": "kinesthetic_data::stack_up_the_cups_together::episode_001_20260921_193458_430239",
+          "video_path": "kinesthetic_data/stack_up_the_cups_together/episode_001_20260921_193458_430239/episode_001_20260921_193458_430239_left.mp4",
+          "reward": 0.8,
+          "raw_start_frame": 0,
+          "end_frame": 266,
+          "frame_count": 295,
+          "fps": 15.0,
+          "duration_seconds": 17.8,
+          "selection_reason": "nested_subset_order",
+          "rubric_version": "3.0.0"
+        },
+        {
+          "trajectory_id": "kinesthetic_data::stack_up_the_cups_together::episode_002_20260914_131124_377280",
+          "video_path": "kinesthetic_data/stack_up_the_cups_together/episode_002_20260914_131124_377280/episode_002_20260914_131124_377280_left.mp4",
+          "reward": 1.0,
+          "raw_start_frame": 0,
+          "end_frame": 320,
+          "frame_count": 321,
+          "fps": 15.0,
+          "duration_seconds": 21.4,
+          "selection_reason": "nested_subset_order",
+          "rubric_version": "3.0.0"
+        },
+        {
+          "trajectory_id": "kinesthetic_data::stack_up_the_cups_together::episode_003_20260914_131334_990957",
+          "video_path": "kinesthetic_data/stack_up_the_cups_together/episode_003_20260914_131334_990957/episode_003_20260914_131334_990957_left.mp4",
+          "reward": 0.2,
+          "raw_start_frame": 0,
+          "end_frame": 271,
+          "frame_count": 272,
+          "fps": 15.0,
+          "duration_seconds": 18.133333333333333,
+          "selection_reason": "nested_subset_order",
+          "rubric_version": "3.0.0"
+        }
+      ]
+    }
+  },
+  "annotation_path": null,
+  "annotation_sha256": null
+}

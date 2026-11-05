@@ -3,7 +3,7 @@
 Release for the study **"The Right Kind of Wrong: Counterfactual Data for Reward Learning in Manipulation"**
 (paper title / arXiv / BibTeX: *TODO – placeholders until public*).
 
-- Project page: https://g0kul6.github.io/counterfactual-study/
+- Project page: https://rightkindofwrong.github.io/
 - Paper: *TODO* · arXiv: *TODO*
 - Authors: Gokul Kannan Thiruvenkadam, Vishal M. Patel†, Homanga Bharadhwaj† (Johns Hopkins University; † equal advising)
 
@@ -39,8 +39,8 @@ docs/               full training / GVL hyper-parameter write-ups
 ## Data (Hugging Face)
 | Dataset | Contents | Link |
 |---|---|---|
-| Benchmark | 250 annotated held-out policy rollouts (π₀.₅ and MolmoAct2) in Robometer format | `g0kul6/counterfactual-reward-benchmark` *(uploading — link live when public)* |
-| Training sources | teleop (kinesthetic), policy rollouts (π₀), human videos, real-to-sim HiFi/LoFi, with annotations | `g0kul6/counterfactual-reward-train` *(uploading — link live when public)* |
+| Benchmark | 250 annotated held-out policy rollouts (π₀.₅ and MolmoAct2) in Robometer format | [g0kul6/counterfactual-reward-benchmark](https://huggingface.co/datasets/g0kul6/counterfactual-reward-benchmark) |
+| Training sources | teleop (kinesthetic), policy rollouts (π₀), human videos, real-to-sim HiFi/LoFi, with annotations | [g0kul6/counterfactual-reward-train](https://huggingface.co/datasets/g0kul6/counterfactual-reward-train) |
 
 Data licence: CC BY 4.0. Annotations were produced by a single annotator under rubric v3.0.0
 (see `docs/` and the paper). Videos of human hands/arms are included; no faces are intended to be visible.

@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this code or data, please cite the paper."
-title: "TODO: paper title"   # placeholder
+title: "The Right Kind of Wrong: Counterfactual Data for Reward Learning in Manipulation"
 authors:
   - family-names: Thiruvenkadam
     given-names: Gokul Kannan

@@ -1,10 +1,8 @@
 # Counterfactual Reward Study — code, data and evaluation
 
-Release for the study **"The Right Kind of Wrong: Counterfactual Data for Reward Learning in Manipulation"**
-(paper title / arXiv / BibTeX: *TODO – placeholders until public*).
+Release for the study **"The Right Kind of Wrong: Counterfactual Data for Reward Learning in Manipulation"**.
 
 - Project page: https://rightkindofwrong.github.io/
-- Paper: *TODO* · arXiv: *TODO*
 - Authors: Gokul Kannan Thiruvenkadam, Vishal M. Patel†, Homanga Bharadhwaj† (Johns Hopkins University; † equal advising)
 
 > **This is a study, not a new framework.** We did not build a new reward-model or RL codebase. Every
@@ -96,11 +94,11 @@ placeholders — edit before use.
 
 ## Citation
 ```bibtex
-@misc{TODO_key,
-  title  = {TODO},
+@misc{thiruvenkadam2026rightkindofwrong,
+  title  = {The Right Kind of Wrong: Counterfactual Data for Reward Learning in Manipulation},
   author = {Thiruvenkadam, Gokul Kannan and Patel, Vishal M. and Bharadhwaj, Homanga},
   year   = {2026},
-  note   = {arXiv: TODO}
+  url    = {https://rightkindofwrong.github.io/}
 }
 ```
 
